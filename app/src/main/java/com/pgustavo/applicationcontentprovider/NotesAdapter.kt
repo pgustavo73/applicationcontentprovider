@@ -30,7 +30,9 @@ class NotesAdapter (private val listener: NoteClickedListener ): RecyclerView.Ad
             mCursor?.moveToPosition(position)
             listener.noteRemoveItem(mCursor)
            }
-        holder.itemView.setOnClickListener {listener.noteClickedItem(mCursor as Cursor)}
+        holder.itemView.setOnClickListener {
+            mCursor?.moveToPosition(position)
+            listener.noteClickedItem(mCursor as Cursor)}
     }
 
     override fun getItemCount(): Int = if (mCursor != null) mCursor?.count as Int else 0
