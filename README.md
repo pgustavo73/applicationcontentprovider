@@ -1,13 +1,14 @@
-# ContentPtovider App com Kotlin 
+# ContentProvider App in Kotlin
 
-OLA"  bem vindo 
+Hello welcome
 
-Este foi mais um dos módulos do BootCAmp da  Everis na DIO.
+This was another one of everis Bootcamp modules at DIO.
 
-Este app foi desenvolvido como exercício para desenvolvimento de um Content Provide.
+This app was developed as an exercise for developing a Content Provider.
 
-Neste pode-se   adicionar , alterar e atualizar dados no   Content Provide.
+This one can add, update and change data on one ContentProvided.
 
-Fiquem a vontade para olhar estou aberto  a dicas e sugestões.
+Please feel free to look open to tips and suggestion
 
+# Screens
 <img src="./image/telas.jpg" />
